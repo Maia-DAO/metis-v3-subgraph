@@ -277,7 +277,7 @@ export function handleSwap(event: SwapEvent): void {
   let pool = Pool.load(event.address.toHexString())
 
   // hot fix for bad pricing
-  if (pool.id == '0x9663f2ca0454accad3e094448ea6f77443880454') {
+  if (pool.id == '0x9f752b290ffaea8e5b8bf1a6707cf789bcf77376') {
     return
   }
 
